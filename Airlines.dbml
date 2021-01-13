@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Airlinemanagement" Class="AirlinesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=Airlinemanagement;Integrated Security=True" SettingsObjectName="Airline_management_system.Properties.Settings" SettingsPropertyName="AirlinemanagementConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AamAdmi" Member="AamAdmis">
+    <Type Name="AamAdmi">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Contact No]" Member="Contact_No" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Cnic" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Reg Date]" Member="Reg_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.codes" Member="codes">
+    <Type Name="code">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Airport code]" Member="Airport_code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Airport logo type]" Member="Airport_logo_type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FlightInfos" Member="FlightInfos">
+    <Type Name="FlightInfo">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Flight No]" Member="Flight_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Airport" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[From]" Member="From" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[To]" Member="To" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Departure Date]" Member="Departure_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="[Arrival Date]" Member="Arrival_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mazdoors" Member="Mazdoors">
+    <Type Name="Mazdoor">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ADDRESS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[CONTACT NO]" Member="CONTACT_NO" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="POST" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TICKETBOOKDETAILS" Member="TICKETBOOKDETAILs">
+    <Type Name="TICKETBOOKDETAIL">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Contact" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Cnic" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Flight No]" Member="Flight_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Departure Date]" Member="Departure_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="[Arrival Date]" Member="Arrival_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="[Passport No]" Member="Passport_No" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="[Passport Type]" Member="Passport_Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeSalarys" Member="EmployeeSalaries">
+    <Type Name="EmployeeSalary">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Contact No]" Member="Contact_No" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Post" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Salary" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Admins" Member="Admins">
+    <Type Name="Admin">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Admin Name]" Member="Admin_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[Admin Cnic]" Member="Admin_Cnic" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="[Admin Contact No]" Member="Admin_Contact_No" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

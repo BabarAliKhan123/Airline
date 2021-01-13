@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Airlines">
+  <DataContextMoniker Name="/AirlinesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d360f230-289a-4f90-9ba2-e33adf829d46" absoluteBounds="0.625, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/AirlinesDataContext/AamAdmi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d8706e08-5023-4271-ba41-645568e5ce15" absoluteBounds="0.64000000000000012, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="42750f0b-eb4c-471e-8bc1-aede9cae9b08" absoluteBounds="5.125, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AirlinesDataContext/code" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38e409de-1d01-4d64-a0fc-390fd7812252" absoluteBounds="5.14, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59527b45-0926-4f56-b508-36af8e0eafdf" absoluteBounds="5, 2, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/AirlinesDataContext/FlightInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="524eabbc-9b42-4d0d-9d08-a405c2bfaec6" absoluteBounds="5.0150000000000006, 2.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7dfdafe9-649f-4861-a482-9443e51cf67a" absoluteBounds="2.875, 2.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AirlinesDataContext/Mazdoor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1d3790e-84c4-4dfe-88b3-5c11dbcc3772" absoluteBounds="2.89, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e4dd74a-9ad0-462f-8f1e-fcb7a34a2ed2" absoluteBounds="0.625, 3.125, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/AirlinesDataContext/TICKETBOOKDETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9002c2a2-ad24-4517-a59f-31df3f3f4a2c" absoluteBounds="0.64000000000000012, 3.585, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="045b7c41-9e9d-4730-875e-21dc1a7dfa30" absoluteBounds="3, 4.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AirlinesDataContext/EmployeeSalary" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5129da9b-da33-4261-9358-d69cd2bede52" absoluteBounds="3.015, 4.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfb779d7-9ef6-435c-9dc4-e8516c01e1c6" absoluteBounds="2.875, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AirlinesDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00dad8d7-1604-4a01-ad38-c173136abff1" absoluteBounds="2.89, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

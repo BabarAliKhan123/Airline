@@ -1,0 +1,23 @@
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\bin\Debug\Airline management system.exe.config
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\bin\Debug\Airline management system.exe
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\bin\Debug\Airline management system.pdb
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline management system.csprojAssemblyReference.cache
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Properties.Resources.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline management system.csproj.GenerateResource.cache
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline management system.exe
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline management system.pdb
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form2.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form3.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form4.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form5.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.waise.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form7.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form8.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form6.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form9.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form10.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form11.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form12.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Form13.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.AL.resources
+C:\Users\Alpha-tech\source\repos\Airline management system\Airline management system\obj\Debug\Airline_management_system.Main.resources
